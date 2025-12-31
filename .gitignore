@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data (adjust as needed)
+data/0_raw/
+data/1_interim/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local env
+.env
