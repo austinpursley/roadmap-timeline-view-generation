@@ -1,5 +1,5 @@
 [project]
-name = "2025-roadmap-python"
+name = "roadmap_python"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,10 +15,13 @@ dependencies = [
     "numpy>=2.4.0",
     "pandas>=2.3.3",
     "scipy>=1.16.3",
+    "plotly",
+    "nbformat",
+    "ipywidgets",
 ]
 
 [project.scripts]
-2025-roadmap-python = "2025_roadmap_python:main"
+roadmap-python = "roadmap_python:main"
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
