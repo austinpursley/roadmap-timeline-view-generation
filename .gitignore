@@ -10,7 +10,6 @@ wheels/
 .venv
 
 # Data (adjust as needed)
-data/0_raw/
 data/1_interim/
 
 # Jupyter

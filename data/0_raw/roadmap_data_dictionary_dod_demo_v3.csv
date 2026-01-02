@@ -1,0 +1,55 @@
+y_id,y_label,uid,name,item_type,group,shape,color,outline_level,wbs,summary,milestone,include,fill_alpha,bar_pattern,bar_line_color,bar_line_width,marker_size,marker_line_color,marker_line_width
+1,Generic DoD Program — Acquisition Lifecycle (Demo),0,Generic DoD Program — Acquisition Lifecycle (Demo),task,Program,rectangle,#7F7F7F,1,1,True,False,False,,,#333333,1,,,
+Key Milestone,Key Milestone,1,Materiel Development Decision (MDD),milestone,Gates,triangle-up,#FECB52,2,1.1,False,True,True,,,#333333,1,18,black,1
+1,Materiel Solution Analysis (MSA) Phase,2,Materiel Solution Analysis (MSA) Phase,task,MSA,rectangle,#636EFA,2,1.2,True,False,False,0.18,/,#333333,2,,,
+1,Technology Maturation & Risk Reduction (TMRR) Phase,3,Technology Maturation & Risk Reduction (TMRR) Phase,task,TMRR,rectangle,#EF553B,2,1.3,True,False,False,0.18,/,#333333,2,,,
+1,Engineering & Manufacturing Development (EMD) Phase,4,Engineering & Manufacturing Development (EMD) Phase,task,EMD,rectangle,#00CC96,2,1.4,True,False,False,0.18,/,#333333,2,,,
+1,Production & Deployment (P&D) Phase,5,Production & Deployment (P&D) Phase,task,P&D,rectangle,#AB63FA,2,1.5,True,False,False,0.18,/,#333333,2,,,
+1,Operations & Support (O&S) Phase,6,Operations & Support (O&S) Phase,task,O&S,rectangle,#19D3F3,2,1.6,True,False,False,0.18,/,#333333,2,,,
+1.2.1,MSA — Requirements & AoA,7,MSA — Requirements & AoA,task,MSA,rectangle,#636EFA,3,1.2.1,True,False,False,0.28,\,#333333,2,,,
+1.2.1.1,Validate capability need (ICD) & initial CONOPS,8,Validate capability need (ICD) & initial CONOPS,task,MSA,rectangle,#636EFA,4,1.2.1.1,False,False,True,0.85,,#333333,1,,,
+1.2.1.2,Develop AoA Study Guidance,9,Develop AoA Study Guidance,task,MSA,rectangle,#636EFA,4,1.2.1.2,False,False,True,0.85,,#333333,1,,,
+1.2.1.3,Conduct Analysis of Alternatives (AoA),10,Conduct Analysis of Alternatives (AoA),task,MSA,rectangle,#636EFA,4,1.2.1.3,False,False,True,0.85,,#333333,1,,,
+1.2.1.4,Draft capability requirements (draft CDD),11,Draft capability requirements (draft CDD),task,MSA,rectangle,#636EFA,4,1.2.1.4,False,False,True,0.85,,#333333,1,,,
+1.2.2,MSA — Early Systems Engineering Reviews,12,MSA — Early Systems Engineering Reviews,task,MSA,rectangle,#636EFA,3,1.2.2,True,False,False,0.28,\,#333333,2,,,
+Technical Reviews,Technical Reviews,13,Alternative Systems Review (ASR),milestone,MSA,diamond,#FECB52,4,1.2.2.1,False,True,True,,,#333333,1,14,black,1
+Technical Reviews,Technical Reviews,14,System Requirements Review (SRR),milestone,MSA,diamond,#FECB52,4,1.2.2.2,False,True,True,,,#333333,1,14,black,1
+1.2.3,MSA — Acquisition Strategy & Contracting Prep,15,MSA — Acquisition Strategy & Contracting Prep,task,MSA,rectangle,#636EFA,3,1.2.3,True,False,False,0.28,\,#333333,2,,,
+1.2.3.1,Initial Acquisition Strategy & funding profile,16,Initial Acquisition Strategy & funding profile,task,MSA,rectangle,#636EFA,4,1.2.3.1,False,False,True,0.85,,#333333,1,,,
+1.2.3.2,Market research / industry engagement,17,Market research / industry engagement,task,MSA,rectangle,#636EFA,4,1.2.3.2,False,False,True,0.85,,#333333,1,,,
+1.2.4,Milestone A Decision (enter TMRR),18,Milestone A Decision (enter TMRR),milestone,MSA,triangle-up,#FECB52,3,1.2.4,False,True,True,,,#333333,1,18,black,1
+1.3.1,TMRR — Prototyping & Tech Maturation,19,TMRR — Prototyping & Tech Maturation,task,TMRR,rectangle,#EF553B,3,1.3.1,True,False,False,0.28,\,#333333,2,,,
+1.3.1.1,Build/assess competitive prototypes,20,Build/assess competitive prototypes,task,TMRR,rectangle,#EF553B,4,1.3.1.1,False,False,True,0.85,,#333333,1,,,
+1.3.1.2,Demonstrate key technologies in relevant environment,21,Demonstrate key technologies in relevant environment,task,TMRR,rectangle,#EF553B,4,1.3.1.2,False,False,True,0.85,,#333333,1,,,
+1.3.2,"TMRR — Requirements, Architecture & Design",22,"TMRR — Requirements, Architecture & Design",task,TMRR,rectangle,#EF553B,3,1.3.2,True,False,False,0.28,\,#333333,2,,,
+1.3.2.1,CDD Validation,23,CDD Validation,milestone,TMRR,star,#FECB52,4,1.3.2.1,False,True,True,,,#333333,1,14,black,1
+Technical Reviews,Technical Reviews,24,System Functional Review (SFR),milestone,TMRR,diamond,#FECB52,4,1.3.2.2,False,True,True,,,#333333,1,14,black,1
+Technical Reviews,Preliminary Design Review (PDR),25,Preliminary Design Review (PDR),milestone,TMRR,diamond,#FECB52,4,1.3.2.3,False,True,True,,,#333333,1,14,black,1
+1.3.3,TMRR — Contracting & Planning (EMD),26,TMRR — Contracting & Planning (EMD),task,TMRR,rectangle,#EF553B,3,1.3.3,True,False,False,0.28,\,#333333,2,,,
+1.3.3.1,Prepare EMD RFP package,27,Prepare EMD RFP package,task,TMRR,rectangle,#EF553B,4,1.3.3.1,False,False,True,0.85,,#333333,1,,,
+1.3.3.2,RFP Release Decision Point (EMD),28,RFP Release Decision Point (EMD),milestone,TMRR,triangle-up,#FECB52,4,1.3.3.2,False,True,True,,,#333333,1,18,black,1
+1.3.3.3,Source selection (EMD contract award prep),29,Source selection (EMD contract award prep),task,TMRR,rectangle,#EF553B,4,1.3.3.3,False,False,True,0.85,,#333333,1,,,
+1.3.4,Milestone B Decision (enter EMD),30,Milestone B Decision (enter EMD),milestone,TMRR,triangle-up,#FECB52,3,1.3.4,False,True,True,,,#333333,1,18,black,1
+1.4.1,EMD — Detailed Design & Integration,31,EMD — Detailed Design & Integration,task,EMD,rectangle,#00CC96,3,1.4.1,True,False,False,0.28,\,#333333,2,,,
+1.4.1.1,Detailed design & subsystem integration,32,Detailed design & subsystem integration,task,EMD,rectangle,#00CC96,4,1.4.1.1,False,False,True,0.85,,#333333,1,,,
+Technical Reviews,Technical Reviews,33,Critical Design Review (CDR),milestone,EMD,diamond,#FECB52,4,1.4.1.2,False,True,True,,,#333333,1,14,black,1
+1.4.1.3,Build engineering development models (EDMs),34,Build engineering development models (EDMs),task,EMD,rectangle,#00CC96,4,1.4.1.3,False,False,True,0.85,,#333333,1,,,
+1.4.2,EMD — Developmental Test & Evaluation (DT&E),35,EMD — Developmental Test & Evaluation (DT&E),task,EMD,rectangle,#00CC96,3,1.4.2,True,False,False,0.28,\,#333333,2,,,
+Technical Reviews,Test Readiness Review (TRR),36,Test Readiness Review (TRR),milestone,EMD,diamond,#FECB52,4,1.4.2.1,False,True,True,,,#333333,1,14,black,1
+1.4.2.2,Execute DT&E events,37,Execute DT&E events,task,EMD,rectangle,#00CC96,4,1.4.2.2,False,False,True,0.85,,#333333,1,,,
+Technical Reviews,Technical Reviews,38,System Verification Review (SVR),milestone,EMD,diamond,#FECB52,4,1.4.2.3,False,True,True,,,#333333,1,14,black,1
+1.4.3,EMD — Production Planning & Readiness,39,EMD — Production Planning & Readiness,task,EMD,rectangle,#00CC96,3,1.4.3,True,False,False,0.28,\,#333333,2,,,
+1.4.3.1,Establish production tooling / processes,40,Establish production tooling / processes,task,EMD,rectangle,#00CC96,4,1.4.3.1,False,False,True,0.85,,#333333,1,,,
+Technical Reviews,Technical Reviews,41,Production Readiness Review (PRR),milestone,EMD,diamond,#FECB52,4,1.4.3.2,False,True,True,,,#333333,1,14,black,1
+1.4.4,Milestone C Decision (enter Production & Deployment),42,Milestone C Decision (enter Production & Deployment),milestone,EMD,triangle-up,#FECB52,3,1.4.4,False,True,True,,,#333333,1,18,black,1
+1.5.1,P&D — Low-Rate Initial Production (LRIP),43,P&D — Low-Rate Initial Production (LRIP),task,P&D,rectangle,#AB63FA,3,1.5.1,True,False,False,0.28,\,#333333,2,,,
+1.5.1.1,LRIP Lot 1 build & deliver,44,LRIP Lot 1 build & deliver,task,P&D,rectangle,#AB63FA,4,1.5.1.1,False,False,True,0.85,,#333333,1,,,
+1.5.1.2,Initial Operational Test & Evaluation (IOT&E),45,Initial Operational Test & Evaluation (IOT&E),task,P&D,rectangle,#AB63FA,4,1.5.1.2,False,False,True,0.85,,#333333,1,,,
+1.5.2,P&D — Full-Rate Production (FRP) & Fielding,46,P&D — Full-Rate Production (FRP) & Fielding,task,P&D,rectangle,#AB63FA,3,1.5.2,True,False,False,0.28,\,#333333,2,,,
+1.5.2.1,Full-Rate Production (FRP) Decision,47,Full-Rate Production (FRP) Decision,milestone,P&D,triangle-up,#FECB52,4,1.5.2.1,False,True,True,,,#333333,1,18,black,1
+1.5.2.2,FRP Lot 1,48,FRP Lot 1,task,P&D,rectangle,#AB63FA,4,1.5.2.2,False,False,True,0.85,,#333333,1,,,
+1.5.2.3,Initial Operational Capability (IOC),49,Initial Operational Capability (IOC),milestone,P&D,star,#FECB52,4,1.5.2.3,False,True,True,,,#333333,1,18,black,1
+1.6.1,O&S — Sustainment & Continuous Improvement,50,O&S — Sustainment & Continuous Improvement,task,O&S,rectangle,#19D3F3,3,1.6.1,True,False,False,0.28,\,#333333,2,,,
+1.6.1.1,"Operations, maintenance, supply support",51,"Operations, maintenance, supply support",task,O&S,rectangle,#19D3F3,4,1.6.1.1,False,False,True,0.85,,#333333,1,,,
+1.6.1.2,Block upgrade / tech refresh planning,52,Block upgrade / tech refresh planning,task,O&S,rectangle,#19D3F3,4,1.6.1.2,False,False,True,0.85,,#333333,1,,,
+1.6.1.3,Full Operational Capability (FOC),53,Full Operational Capability (FOC),milestone,O&S,star,#FECB52,4,1.6.1.3,False,True,True,,,#333333,1,18,black,1

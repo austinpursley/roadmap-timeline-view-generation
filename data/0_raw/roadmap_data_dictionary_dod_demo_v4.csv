@@ -1,0 +1,55 @@
+y_id,y_label,y_label_short,uid,name,item_type,group,shape,color,outline_level,wbs,summary,milestone,include,fill_alpha,bar_pattern,bar_line_color,bar_line_width,marker_size,marker_line_color,marker_line_width
+00_Key Decisions,Key Decisions,MDD,1,Materiel Development Decision (MDD),milestone,Gates,triangle-up,#F28E2B,2,1.1,False,True,True,1,,#333333,1,18,black,1
+00_Key Decisions,Key Decisions,MS A,18,Milestone A Decision (enter TMRR),milestone,MSA,triangle-up,#F28E2B,3,1.2.4,False,True,True,1,,#333333,1,18,black,1
+00_Key Decisions,Key Decisions,RFP DP,28,RFP Release Decision Point (EMD),milestone,TMRR,triangle-up,#F28E2B,4,1.3.3.2,False,True,True,1,,#333333,1,18,black,1
+00_Key Decisions,Key Decisions,MS B,30,Milestone B Decision (enter EMD),milestone,TMRR,triangle-up,#F28E2B,3,1.3.4,False,True,True,1,,#333333,1,18,black,1
+00_Key Decisions,Key Decisions,MS C,42,Milestone C Decision (enter Production & Deployment),milestone,EMD,triangle-up,#F28E2B,3,1.4.4,False,True,True,1,,#333333,1,18,black,1
+00_Key Decisions,Key Decisions,FRP,47,Full-Rate Production (FRP) Decision,milestone,P&D,triangle-up,#F28E2B,4,1.5.2.1,False,True,True,1,,#333333,1,18,black,1
+01_Tech Reviews,Tech Reviews,ASR,13,Alternative Systems Review (ASR),milestone,MSA,diamond,#4E79A7,4,1.2.2.1,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,SRR,14,System Requirements Review (SRR),milestone,MSA,diamond,#4E79A7,4,1.2.2.2,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,CDD,23,CDD Validation,milestone,TMRR,diamond,#4E79A7,4,1.3.2.1,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,SFR,24,System Functional Review (SFR),milestone,TMRR,diamond,#4E79A7,4,1.3.2.2,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,PDR,25,Preliminary Design Review (PDR),milestone,TMRR,diamond,#4E79A7,4,1.3.2.3,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,CDR,33,Critical Design Review (CDR),milestone,EMD,diamond,#4E79A7,4,1.4.1.2,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,TRR,36,Test Readiness Review (TRR),milestone,EMD,diamond,#4E79A7,4,1.4.2.1,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,SVR,38,System Verification Review (SVR),milestone,EMD,diamond,#4E79A7,4,1.4.2.3,False,True,True,1,,#333333,1,16,black,1
+01_Tech Reviews,Tech Reviews,PRR,41,Production Readiness Review (PRR),milestone,EMD,diamond,#4E79A7,4,1.4.3.2,False,True,True,1,,#333333,1,16,black,1
+02_Capability Milestones,Capability Milestones,IOC,49,Initial Operational Capability (IOC),milestone,P&D,star,#59A14F,4,1.5.2.3,False,True,True,1,,#333333,1,18,black,1
+02_Capability Milestones,Capability Milestones,FOC,53,Full Operational Capability (FOC),milestone,O&S,star,#59A14F,4,1.6.1.3,False,True,True,1,,#333333,1,18,black,1
+10_Phase Bands,Phase Bands,,2,Materiel Solution Analysis (MSA) Phase,task,MSA,rectangle,#9D9D9D,2,1.2,True,False,True,1,,#333333,2,,,1
+10_Phase Bands,Phase Bands,,3,Technology Maturation & Risk Reduction (TMRR) Phase,task,TMRR,rectangle,#9D9D9D,2,1.3,True,False,True,1,,#333333,2,,,1
+10_Phase Bands,Phase Bands,,4,Engineering & Manufacturing Development (EMD) Phase,task,EMD,rectangle,#9D9D9D,2,1.4,True,False,True,1,,#333333,2,,,1
+10_Phase Bands,Phase Bands,,5,Production & Deployment (P&D) Phase,task,P&D,rectangle,#9D9D9D,2,1.5,True,False,True,1,,#333333,2,,,1
+10_Phase Bands,Phase Bands,,6,Operations & Support (O&S) Phase,task,O&S,rectangle,#9D9D9D,2,1.6,True,False,True,1,,#333333,2,,,1
+20_Work Packages — MSA,Work Packages — MSA,,7,MSA — Requirements & AoA,task,MSA,rectangle,#9BBDF2,3,1.2.1,True,False,True,1,,#333333,2,,,1
+20_Work Packages — MSA,Work Packages — MSA,,12,MSA — Early Systems Engineering Reviews,task,MSA,rectangle,#9BBDF2,3,1.2.2,True,False,True,1,,#333333,2,,,1
+20_Work Packages — MSA,Work Packages — MSA,,15,MSA — Acquisition Strategy & Contracting Prep,task,MSA,rectangle,#9BBDF2,3,1.2.3,True,False,True,1,,#333333,2,,,1
+21_Work Packages — TMRR,Work Packages — TMRR,,19,TMRR — Prototyping & Tech Maturation,task,TMRR,rectangle,#F4B183,3,1.3.1,True,False,True,1,,#333333,2,,,1
+21_Work Packages — TMRR,Work Packages — TMRR,,22,"TMRR — Requirements, Architecture & Design",task,TMRR,rectangle,#F4B183,3,1.3.2,True,False,True,1,,#333333,2,,,1
+21_Work Packages — TMRR,Work Packages — TMRR,,26,TMRR — Contracting & Planning (EMD),task,TMRR,rectangle,#F4B183,3,1.3.3,True,False,True,1,,#333333,2,,,1
+22_Work Packages — EMD,Work Packages — EMD,,31,EMD — Detailed Design & Integration,task,EMD,rectangle,#A9D18E,3,1.4.1,True,False,True,1,,#333333,2,,,1
+22_Work Packages — EMD,Work Packages — EMD,,35,EMD — Developmental Test & Evaluation (DT&E),task,EMD,rectangle,#A9D18E,3,1.4.2,True,False,True,1,,#333333,2,,,1
+22_Work Packages — EMD,Work Packages — EMD,,39,EMD — Production Planning & Readiness,task,EMD,rectangle,#A9D18E,3,1.4.3,True,False,True,1,,#333333,2,,,1
+23_Work Packages — P&D,Work Packages — P&D,,43,P&D — Low-Rate Initial Production (LRIP),task,P&D,rectangle,#C9B2F2,3,1.5.1,True,False,True,1,,#333333,2,,,1
+23_Work Packages — P&D,Work Packages — P&D,,46,P&D — Full-Rate Production (FRP) & Fielding,task,P&D,rectangle,#C9B2F2,3,1.5.2,True,False,True,1,,#333333,2,,,1
+24_Work Packages — O&S,Work Packages — O&S,,50,O&S — Sustainment & Continuous Improvement,task,O&S,rectangle,#9ADBE8,3,1.6.1,True,False,True,1,,#333333,2,,,1
+30_Activities (selected),Activities (selected),,0,Generic DoD Program — Acquisition Lifecycle (Demo),task,Program,rectangle,#7F7F7F,1,1,True,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,8,Validate capability need (ICD) & initial CONOPS,task,MSA,rectangle,#3B6FB6,4,1.2.1.1,False,False,True,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,9,Develop AoA Study Guidance,task,MSA,rectangle,#3B6FB6,4,1.2.1.2,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,10,Conduct Analysis of Alternatives (AoA),task,MSA,rectangle,#3B6FB6,4,1.2.1.3,False,False,True,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,11,Draft capability requirements (draft CDD),task,MSA,rectangle,#3B6FB6,4,1.2.1.4,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,16,Initial Acquisition Strategy & funding profile,task,MSA,rectangle,#3B6FB6,4,1.2.3.1,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,17,Market research / industry engagement,task,MSA,rectangle,#3B6FB6,4,1.2.3.2,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,20,Build/assess competitive prototypes,task,TMRR,rectangle,#D47C2C,4,1.3.1.1,False,False,True,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,21,Demonstrate key technologies in relevant environment,task,TMRR,rectangle,#D47C2C,4,1.3.1.2,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,27,Prepare EMD RFP package,task,TMRR,rectangle,#D47C2C,4,1.3.3.1,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,29,Source selection (EMD contract award prep),task,TMRR,rectangle,#D47C2C,4,1.3.3.3,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,32,Detailed design & subsystem integration,task,EMD,rectangle,#2E8B57,4,1.4.1.1,False,False,True,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,34,Build engineering development models (EDMs),task,EMD,rectangle,#2E8B57,4,1.4.1.3,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,37,Execute DT&E events,task,EMD,rectangle,#2E8B57,4,1.4.2.2,False,False,True,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,40,Establish production tooling / processes,task,EMD,rectangle,#2E8B57,4,1.4.3.1,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,44,LRIP Lot 1 build & deliver,task,P&D,rectangle,#6A5ACD,4,1.5.1.1,False,False,True,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,45,Initial Operational Test & Evaluation (IOT&E),task,P&D,rectangle,#6A5ACD,4,1.5.1.2,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,48,FRP Lot 1,task,P&D,rectangle,#6A5ACD,4,1.5.2.2,False,False,False,1,,#333333,1,,,1
+30_Activities (selected),Activities (selected),,51,"Operations, maintenance, supply support",task,O&S,rectangle,#1F9E9E,4,1.6.1.1,False,False,True,1,,#333333,1,,,1
+31_Activities (selected),,,52,Block upgrade / tech refresh planning,task,O&S,rectangle,#1F9E9E,4,1.6.1.2,False,False,True,1,,#333333,1,,,1
